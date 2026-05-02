@@ -1,0 +1,12 @@
+{
+  "name": "KpYimba",
+  "version": "1.0.0",
+  "title": "Kabury's pYimba",
+  "author": "Kabury",
+  "contact": "",
+  "homepage": "",
+  "description": "Personal recipe rebalance",
+  "factorio_version": "2.0",
+  "spoiling_required": true,
+  "dependencies": ["base >= 2.0.2", "klib", "? pypostprocessing", "? AutomaticTrainDeployment_SpaceAge", "? character-inventory-uplink", "? deep-storage-unit", "? factorissimo-2-notnotmelon"]
+}
