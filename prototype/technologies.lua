@@ -28,6 +28,12 @@ if mods["pypostprocessing"] then
         data.raw["technology"]["factory-connection-type-heat"].unit     = (kl.qtech("_",150,kl.pyamounts[4],{ret=true,order=kl.pyorder})).unit
         data.raw["technology"]["factory-connection-type-heat"].prerequisites = {"factory-architecture-t2"}
     end
+
+    if mods["Dectorio"] then
+        data.raw["technology"]["dect-lawnmower"].unit = (kl.qtech("_",30,{1},{ret=true,time=15})).unit
+        data.raw["technology"]["dect-earthworks"].unit = (kl.qtech("_",100,{1},{ret=true,time=15})).unit
+        data.raw["technology"]["dect-earthworks"].prerequisites = {"landfill"}
+    end
 end
 
 

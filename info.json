@@ -1,6 +1,6 @@
 {
   "name": "KpYimba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Kabury's pYimba",
   "author": "Kabury",
   "contact": "",
@@ -8,5 +8,5 @@
   "description": "Personal recipe rebalance",
   "factorio_version": "2.0",
   "spoiling_required": true,
-  "dependencies": ["base >= 2.0.2", "klib", "? pypostprocessing", "? AutomaticTrainDeployment_SpaceAge", "? character-inventory-uplink", "? deep-storage-unit", "? factorissimo-2-notnotmelon"]
+  "dependencies": ["base >= 2.0.2", "klib", "? pypostprocessing", "? AutomaticTrainDeployment_SpaceAge", "? character-inventory-uplink", "? deep-storage-unit", "? fluid-memory-storage", "? factorissimo-2-notnotmelon", "? Dectorio"]
 }
