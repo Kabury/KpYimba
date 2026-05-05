@@ -44,7 +44,7 @@ if mods["pypostprocessing"] then
     end
 
     if mods["fluid-memory-storage"] then
-        kl.qrecipe("fluid-memory-unit",{"storage-tank",1,"energy-shield-equipment",1,"efficiency-module",1},{"memory-unit",4},{rt="name-and-amount"})
+        kl.qrecipe("fluid-memory-unit",{"storage-tank",1,"energy-shield-equipment",1,"efficiency-module",1},{"fluid-memory-unit",4},{rt="name-and-amount"})
     end
 end
 
